@@ -53,4 +53,13 @@ searchBtn.addEventListener("click", () => {
   }
 });
 
+searchBox.addEventListener("keypress", (e) => {
+  if (searchBox.value == "" && e.key == "Enter") {
+    error.style.display = "block";
+    weather.style.display = "none";
+  } else if (e.key == "Enter") {
+    checkWeather(searchBox.value);
+  }
+});
+
 // checkWeather();
