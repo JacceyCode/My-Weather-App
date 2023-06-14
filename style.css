@@ -15,9 +15,10 @@ body {
 .card {
     width: 90%;
     max-width: 470px;
+    min-height: 100vh;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
-    margin: 50px auto;
+    margin: 30px auto 10px;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
@@ -130,7 +131,7 @@ header {
 @media (max-width: 500px) {
     .card {
         width: 98%;
-        margin: 40px auto;
+        margin: 5px auto;
         padding: 5px;
     }
 
